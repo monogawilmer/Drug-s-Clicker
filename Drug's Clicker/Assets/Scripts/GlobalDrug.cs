@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GlobalMarias : MonoBehaviour
+public class GlobalDrug : MonoBehaviour
 {
     public static int drugAmount;
     public GameObject drugDisplay;
