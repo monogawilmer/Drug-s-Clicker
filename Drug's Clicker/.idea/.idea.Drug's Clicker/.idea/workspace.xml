@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec12385-0a5b-41f7-9a62-dc18f7bbe707" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Juego.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Juego.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Drug's Clicker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Drug's Clicker/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Drug's Clicker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Drug's Clicker/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PurchaseLog.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -100,6 +101,21 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GlobalHomeless.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+              <folding>
+                <marker date="1561041402060" expanded="true" signature="6:100" ph="..." />
+                <marker date="1561041402060" expanded="true" signature="145:424" ph="{...}" />
+                <marker date="1561041402060" expanded="true" signature="325:346" ph="{...}" />
+                <marker date="1561041402060" expanded="true" signature="365:422" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -107,6 +123,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AutoDrug.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalHomeless.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalCash.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClickManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GlobalDrug.cs" root0="FORCE_HIGHLIGHTING" />
@@ -122,12 +139,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SellDrug.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AutoDrug.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PurchaseLog.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GlobalHomeless.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="210" />
-    <option name="y" value="3" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="618" />
+    <option name="y" value="390" />
     <option name="width" value="1200" />
     <option name="height" value="646" />
   </component>
@@ -192,12 +210,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560958923112</updated>
       <workItem from="1560958932953" duration="3240000" />
-      <workItem from="1561037063112" duration="2502000" />
+      <workItem from="1561037063112" duration="3295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5742000" />
+    <option name="totallyTimeSpent" value="6535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -209,10 +227,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="618" y="390" width="1200" height="646" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25449872" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34736842" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -331,6 +349,19 @@
             <marker date="1561038684687" expanded="true" signature="6:78" ph="..." />
             <marker date="1561038684687" expanded="true" signature="121:236" ph="{...}" />
             <marker date="1561038684687" expanded="true" signature="188:234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GlobalHomeless.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+          <folding>
+            <marker date="1561041402060" expanded="true" signature="6:100" ph="..." />
+            <marker date="1561041402060" expanded="true" signature="145:424" ph="{...}" />
+            <marker date="1561041402060" expanded="true" signature="325:346" ph="{...}" />
+            <marker date="1561041402060" expanded="true" signature="365:422" ph="{...}" />
           </folding>
         </state>
       </provider>

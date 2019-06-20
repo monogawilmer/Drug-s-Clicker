@@ -11,6 +11,7 @@
           <e p="ClickManager.cs" t="Include" />
           <e p="GlobalCash.cs" t="Include" />
           <e p="GlobalDrug.cs" t="Include" />
+          <e p="GlobalHomeless.cs" t="Include" />
           <e p="PurchaseLog.cs" t="Include" />
           <e p="SellDrug.cs" t="Include" />
         </e>
