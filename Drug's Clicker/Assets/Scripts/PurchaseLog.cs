@@ -10,5 +10,8 @@ public class PurchaseLog : MonoBehaviour
     public void StartAutoDrug()
     {
         autoDrug.SetActive(true);
+        GlobalCash.cashAmount -= GlobalHomeless.homelessValue;
+        GlobalHomeless.homelessValue *= 2;
+        GlobalHomeless.turnOffButton = true;
     }
 }
