@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec12385-0a5b-41f7-9a62-dc18f7bbe707" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Drug's Clicker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Drug's Clicker/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Drug's Clicker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Drug's Clicker/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Juego.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Juego.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/AutoDrug.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -88,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PurchaseLog.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -194,12 +192,12 @@
       <option name="presentableId" value="Default" />
       <updated>1560958923112</updated>
       <workItem from="1560958932953" duration="3240000" />
-      <workItem from="1561037063112" duration="1901000" />
+      <workItem from="1561037063112" duration="2502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5141000" />
+    <option name="totallyTimeSpent" value="5742000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -311,18 +309,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PurchaseLog.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <marker date="1561038684687" expanded="true" signature="6:78" ph="..." />
-            <marker date="1561038684687" expanded="true" signature="121:236" ph="{...}" />
-            <marker date="1561038684687" expanded="true" signature="188:234" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/AutoDrug.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -333,6 +319,18 @@
             <marker date="1561038102253" expanded="true" signature="250:438" ph="{...}" />
             <marker date="1561038102253" expanded="true" signature="332:432" ph="{...}" />
             <marker date="1561038102253" expanded="true" signature="473:610" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PurchaseLog.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <marker date="1561038684687" expanded="true" signature="6:78" ph="..." />
+            <marker date="1561038684687" expanded="true" signature="121:236" ph="{...}" />
+            <marker date="1561038684687" expanded="true" signature="188:234" ph="{...}" />
           </folding>
         </state>
       </provider>
