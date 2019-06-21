@@ -31,13 +31,13 @@ public class SellDrug : MonoBehaviour
         {
             celebration.PlayOneShot(register);
             celebration.PlayOneShot(celebrationAudioClip, 2f);
-            int b = GlobalDrug.drugAmount;
+            int amountCash = GlobalDrug.drugAmount;
             GlobalCash.cashAmount += GlobalDrug.drugAmount;
             GlobalDrug.drugAmount -= GlobalDrug.drugAmount;
             if (particles.GetComponent<ParticleSystem>().isPlaying == false)
             {
                 var emision = particle.emission;
-                emision.rateOverTime = b ;
+                emision.rateOverTime = amountCash ;
                 particles.SetActive(true);
             }
         }  

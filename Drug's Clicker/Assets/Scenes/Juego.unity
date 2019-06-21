@@ -467,7 +467,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Buy Homeless - $50
+  m_Text: '50 Drug''s - Homeless '
 --- !u!222 &286684313
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6163,7 +6163,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Buy Homeless - $50
+  m_Text: '50 Drug''s - Homeless '
 --- !u!222 &1142575912
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6381,7 +6381,7 @@ MonoBehaviour:
   fakeText: {fileID: 1142575909}
   realButton: {fileID: 1877276631}
   realText: {fileID: 286684310}
-  currentCash: 0
+  currentDrug: 0
 --- !u!1 &1597283910
 GameObject:
   m_ObjectHideFlags: 0
@@ -6576,8 +6576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 126, y: -40}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 112.11, y: -50.21}
+  m_SizeDelta: {x: 132.24, y: 50.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1877276633
 MonoBehaviour:
@@ -6708,8 +6708,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 126, y: -40}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 112.11, y: -50.21}
+  m_SizeDelta: {x: 132.24, y: 50.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1887723281
 MonoBehaviour:

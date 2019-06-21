@@ -9,16 +9,16 @@ public class GlobalHomeless : MonoBehaviour
     public GameObject fakeText;
     public GameObject realButton;
     public GameObject realText;
-    public int currentCash;
+    public int currentDrug;
     public static int homelessValue = 50;
     public static bool turnOffButton = false;
     
     void Update()
     {
-        currentCash = GlobalCash.cashAmount;
-        fakeText.GetComponent<Text>().text = "Buy Homeless - $" + homelessValue;
-        realText.GetComponent<Text>().text = "Buy Homeless - $" + homelessValue;
-        if (currentCash >= homelessValue)
+        currentDrug = GlobalDrug.drugAmount;
+        fakeText.GetComponent<Text>().text =  homelessValue +" Drug's - Homeless";
+        realText.GetComponent<Text>().text =  homelessValue +" Drug's - Homeless";
+        if (currentDrug >= homelessValue)
         {
             fakeButton.SetActive(false);
             realButton.SetActive(true);
