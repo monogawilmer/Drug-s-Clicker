@@ -10,6 +10,7 @@ public class SellDrug : MonoBehaviour
     public GameObject particles;
     public AudioClip celebrationAudioClip;
     private ParticleSystem particle;
+    public AudioClip register;
     private AudioSource celebration;
     
 
@@ -28,6 +29,7 @@ public class SellDrug : MonoBehaviour
         }
         else
         {
+            celebration.PlayOneShot(register);
             celebration.PlayOneShot(celebrationAudioClip, 2f);
             int b = GlobalDrug.drugAmount;
             GlobalCash.cashAmount += GlobalDrug.drugAmount;

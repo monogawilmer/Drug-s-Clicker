@@ -732,6 +732,7 @@ MonoBehaviour:
   particles: {fileID: 629139369}
   celebrationAudioClip: {fileID: 8300000, guid: 637e9f35f9cb1f042bed89ca2e31814a,
     type: 3}
+  register: {fileID: 8300000, guid: 2873c4041a9601a49b4ad4e36cc27cea, type: 3}
 --- !u!114 &594102615
 MonoBehaviour:
   m_ObjectHideFlags: 0
