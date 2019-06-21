@@ -8,12 +8,16 @@ public class SellDrug : MonoBehaviour
     public GameObject ClickBox;
     public GameObject statusBox;
     public GameObject particles;
+    public AudioClip celebrationAudioClip;
     private ParticleSystem particle;
+    private AudioSource celebration;
+    
 
 
     private void Start()
     {
         particle = particles.GetComponent<ParticleSystem>();
+        celebration = GetComponent<AudioSource>();
     } 
     public void ClickTheButton()
     {
@@ -24,6 +28,7 @@ public class SellDrug : MonoBehaviour
         }
         else
         {
+            celebration.PlayOneShot(celebrationAudioClip, 2f);
             int b = GlobalDrug.drugAmount;
             GlobalCash.cashAmount += GlobalDrug.drugAmount;
             GlobalDrug.drugAmount -= GlobalDrug.drugAmount;
