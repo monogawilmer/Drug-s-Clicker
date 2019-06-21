@@ -13,5 +13,7 @@ public class PurchaseLog : MonoBehaviour
         GlobalDrug.drugAmount -= GlobalHomeless.homelessValue;
         GlobalHomeless.homelessValue *= 2;
         GlobalHomeless.turnOffButton = true;
+        GlobalHomeless.homelessPerSec += 4;
+        GlobalHomeless.numberOfHomeless += 1;
     }
 }

@@ -12,12 +12,15 @@ public class GlobalHomeless : MonoBehaviour
     public int currentDrug;
     public static int homelessValue = 50;
     public static bool turnOffButton = false;
+    public GameObject homelessStat;
+    public static int numberOfHomeless;
+    public static int homelessPerSec;
     
     void Update()
     {
         currentDrug = GlobalDrug.drugAmount;
-        fakeText.GetComponent<Text>().text =  homelessValue +" Drug's - Homeless";
-        realText.GetComponent<Text>().text =  homelessValue +" Drug's - Homeless";
+        fakeText.GetComponent<Text>().text =  homelessValue +" Drug's - " + numberOfHomeless +" Homeless " + homelessPerSec +" Per Sec";
+        realText.GetComponent<Text>().text =  homelessValue +" Drug's - " + numberOfHomeless +" Homeless " + homelessPerSec +" Per Sec";
         if (currentDrug >= homelessValue)
         {
             fakeButton.SetActive(false);
