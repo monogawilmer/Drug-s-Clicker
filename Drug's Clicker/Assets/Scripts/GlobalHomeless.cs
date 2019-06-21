@@ -23,8 +23,13 @@ public class GlobalHomeless : MonoBehaviour
             fakeButton.SetActive(false);
             realButton.SetActive(true);
         }
+        else
+        {
+            fakeButton.SetActive(true);
+            realButton.SetActive(false);
+        }
 
-        if (turnOffButton == true)
+        if (turnOffButton)
         {
             realButton.SetActive(false);
             fakeButton.SetActive(true);
