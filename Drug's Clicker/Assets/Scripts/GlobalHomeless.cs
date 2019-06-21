@@ -10,7 +10,7 @@ public class GlobalHomeless : MonoBehaviour
     public GameObject realButton;
     public GameObject realText;
     public int currentDrug;
-    public static int homelessValue = 50;
+    public static int homelessValue = 5;
     public static bool turnOffButton = false;
     public GameObject homelessStat;
     public static int numberOfHomeless;

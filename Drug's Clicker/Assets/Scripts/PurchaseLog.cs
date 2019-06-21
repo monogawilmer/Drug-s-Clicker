@@ -10,10 +10,16 @@ public class PurchaseLog : MonoBehaviour
     public void StartAutoDrug()
     {
         autoDrug.SetActive(true);
+        //Manejo de Homeless
         GlobalDrug.drugAmount -= GlobalHomeless.homelessValue;
         GlobalHomeless.homelessValue *= 2;
         GlobalHomeless.turnOffButton = true;
-        GlobalHomeless.homelessPerSec += 4;
+        GlobalHomeless.homelessPerSec += 2;
         GlobalHomeless.numberOfHomeless += 1;
+        //Manejo de Estudiante
+        //Manejo de Dealer
+        //Manejo de Sicario
+        //Manejo de Farmer
+        
     }
 }
