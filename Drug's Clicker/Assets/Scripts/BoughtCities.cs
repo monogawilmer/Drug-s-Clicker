@@ -6,12 +6,12 @@ using UnityEngine.UI;
 public class BoughtCities : MonoBehaviour
 {
     public int priceCity;
-
+    public Button button;
     public GameObject nextCity;
     // Start is called before the first frame update
     void Start()
     {
-        
+         
     }
 
     // Update is called once per frame
@@ -24,6 +24,7 @@ public class BoughtCities : MonoBehaviour
     {
         if (GlobalCash.cashAmount>=priceCity)
         {
+            button.enabled=false;
             GlobalCash.cashAmount =GlobalCash.cashAmount - priceCity;
             nextCity.SetActive(true);
         }

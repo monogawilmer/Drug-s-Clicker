@@ -773,6 +773,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   priceCity: 200
+  button: {fileID: 1470494440}
   nextCity: {fileID: 1571538386}
 --- !u!1 &561009660
 GameObject:
@@ -1072,6 +1073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   priceCity: 50
+  button: {fileID: 0}
   nextCity: {fileID: 0}
 --- !u!1 &628239381
 GameObject:
@@ -6188,6 +6190,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   priceCity: 50
+  button: {fileID: 809535008}
   nextCity: {fileID: 1571538386}
 --- !u!4 &803989607
 Transform:
@@ -6209,6 +6212,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 6988382807677302616}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &809535008 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6988382806876221816, guid: da72032b1f9f6994d9ccaa8457e87ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 6988382807677302616}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1007730315
 GameObject:
   m_ObjectHideFlags: 0
@@ -6477,6 +6492,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1631495340}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1470494440 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6988382806876221816, guid: da72032b1f9f6994d9ccaa8457e87ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1631495340}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470494438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1479170119
 GameObject:
   m_ObjectHideFlags: 0
@@ -6562,6 +6589,18 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 5896309}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1571538387 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6988382806876221816, guid: da72032b1f9f6994d9ccaa8457e87ac0,
+    type: 3}
+  m_PrefabInstance: {fileID: 5896309}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1571538386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1571538390 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6988382806876221767, guid: da72032b1f9f6994d9ccaa8457e87ac0,
@@ -6895,6 +6934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   priceCity: 100
+  button: {fileID: 1571538387}
   nextCity: {fileID: 1470494438}
 --- !u!4 &1739923549
 Transform:
