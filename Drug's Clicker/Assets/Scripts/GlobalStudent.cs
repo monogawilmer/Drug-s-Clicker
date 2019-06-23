@@ -2,26 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
-public class GlobalHomeless : MonoBehaviour
+public class GlobalStudent : MonoBehaviour
 {
     public GameObject fakeButton;
     public GameObject fakeText;
     public GameObject realButton;
     public GameObject realText;
     public int currentDrug;
-    public static int homelessValue = 10;
+    public static int studentValue = 20;
     public static bool turnOffButton = false;
-    public GameObject homelessStat;
-    public static int numberOfHomeless;
-    public static int homelessPerSec;
-    
+    public GameObject studentStat;
+    public static int numberOfStudent;
+    public static int studentPerSec;
+
     void Update()
     {
         currentDrug = GlobalDrug.drugAmount;
-        fakeText.GetComponent<Text>().text =  homelessValue +" Drug's - " + numberOfHomeless +" Homeless " + homelessPerSec +" Per Sec";
-        realText.GetComponent<Text>().text =  homelessValue +" Drug's - " + numberOfHomeless +" Homeless " + homelessPerSec +" Per Sec";
-        if (currentDrug >= homelessValue)
+        fakeText.GetComponent<Text>().text = studentValue + " Drug's - " + numberOfStudent + " Student " + studentPerSec + " Per Sec";
+        realText.GetComponent<Text>().text = studentValue + " Drug's - " + numberOfStudent + " Student " + studentPerSec + " Per Sec";
+        if (currentDrug >= studentValue)
         {
             fakeButton.SetActive(false);
             realButton.SetActive(true);

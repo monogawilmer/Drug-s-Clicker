@@ -10,7 +10,7 @@ public class AutoDrug : MonoBehaviour
  
     void Update()
     {
-        drugIncrease = GlobalHomeless.homelessPerSec;
+        drugIncrease = GlobalHomeless.homelessPerSec + GlobalStudent.studentPerSec + GlobalDealer.dealerPerSec;
         internalIncrease = drugIncrease;
         if (creatingDrug == false)
         {
