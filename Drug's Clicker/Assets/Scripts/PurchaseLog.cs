@@ -13,7 +13,7 @@ public class PurchaseLog : MonoBehaviour
         GlobalDrug.drugAmount -= GlobalHomeless.homelessValue;
         GlobalHomeless.homelessValue *= 2;
         GlobalHomeless.turnOffButton = true;
-        GlobalHomeless.homelessPerSec += 5;
+        GlobalHomeless.homelessPerSec += 10;
         GlobalHomeless.numberOfHomeless += 1;  
     }
 
@@ -21,9 +21,9 @@ public class PurchaseLog : MonoBehaviour
     {
         autoDrug.SetActive(true);
         GlobalDrug.drugAmount -= GlobalStudent.studentValue;
-        GlobalStudent.studentValue *= 3;
+        GlobalStudent.studentValue *= 2;
         GlobalStudent.turnOffButton = true;
-        GlobalStudent.studentPerSec += 10;
+        GlobalStudent.studentPerSec += 50;
         GlobalStudent.numberOfStudent += 1;
     }
 
@@ -31,9 +31,9 @@ public class PurchaseLog : MonoBehaviour
     {
         autoDrug.SetActive(true);
         GlobalDrug.drugAmount -= GlobalDealer.dealerValue;
-        GlobalDealer.dealerValue *= 4;
+        GlobalDealer.dealerValue *= 3;
         GlobalDealer.turnOffButton = true;
-        GlobalDealer.dealerPerSec += 50;
+        GlobalDealer.dealerPerSec += 100;
         GlobalDealer.numberOfDealer += 1;
     }
 
@@ -41,9 +41,9 @@ public class PurchaseLog : MonoBehaviour
     {
         autoDrug.SetActive(true);
         GlobalDrug.drugAmount -= GlobalHitman.hitmanValue;
-        GlobalHitman.hitmanValue *= 5;
+        GlobalHitman.hitmanValue *= 3;
         GlobalHitman.turnOffButton = true;
-        GlobalHitman.hitmanPerSec += 100;
+        GlobalHitman.hitmanPerSec += 500;
         GlobalHitman.numberOfHitman += 1;
     }
 
@@ -51,9 +51,9 @@ public class PurchaseLog : MonoBehaviour
     {
         autoDrug.SetActive(true);
         GlobalDrug.drugAmount -= GlobalFarmer.farmerValue;
-        GlobalFarmer.farmerValue *= 6;
+        GlobalFarmer.farmerValue *= 4;
         GlobalFarmer.turnOffButton = true;
-        GlobalFarmer.farmerPerSec += 500;
+        GlobalFarmer.farmerPerSec += 1000;
         GlobalFarmer.numberOfFarmer += 1;
     }
 
@@ -61,9 +61,9 @@ public class PurchaseLog : MonoBehaviour
     {
         autoDrug.SetActive(true);
         GlobalDrug.drugAmount -= GlobalPolitician.politicianValue;
-        GlobalPolitician.politicianValue *= 7;
+        GlobalPolitician.politicianValue *= 4;
         GlobalPolitician.turnOffButton = true;
-        GlobalPolitician.politicianPerSec += 1000;
+        GlobalPolitician.politicianPerSec += 5000;
         GlobalPolitician.numberOfPolitician += 1;
     }
 }

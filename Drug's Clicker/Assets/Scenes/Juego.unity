@@ -3087,7 +3087,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 100
+    maxNumParticles: 500
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -11197,7 +11197,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.900055, y: -163.09995}
+  m_AnchoredPosition: {x: -4.900055, y: -163.09991}
   m_SizeDelta: {x: -63.8, y: -374.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2112087159
