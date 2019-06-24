@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class BoughtCities : MonoBehaviour
@@ -9,6 +10,7 @@ public class BoughtCities : MonoBehaviour
     public Button button;
     //public GameObject nextCity;
     private int count=0;
+    public GameObject multiplierText;
 
     // Start is called before the first frame update
     void Start()
@@ -42,7 +44,8 @@ public class BoughtCities : MonoBehaviour
             var buttonColors = button.image;
             buttonColors.color=Color.green;
             button.enabled=false;
-            SellDrug.multiplier += 0.2;
+            SellDrug.multiplier += 0.35;
+            multiplierText.GetComponent<Text>().text = "multiplier x" + SellDrug.multiplier;
             //nextCity.SetActive(true);
         }
     }
