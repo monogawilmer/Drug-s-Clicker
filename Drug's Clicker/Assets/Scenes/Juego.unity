@@ -1302,7 +1302,9 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 500000
+      value: 'PISO PICADO
+
+        500000'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da72032b1f9f6994d9ccaa8457e87ac0, type: 3}
@@ -1534,7 +1536,9 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 10000
+      value: 'RACCON CITY
+
+        10000'
       objectReference: {fileID: 0}
     - target: {fileID: 6988382806876221817, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
@@ -7591,7 +7595,9 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 70000
+      value: 'BALSA BOTIN
+
+        70000'
       objectReference: {fileID: 0}
     - target: {fileID: 6988382807410549962, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
@@ -8835,7 +8841,9 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 1 millon
+      value: 'LIBERTY CITY
+
+        1 millon'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da72032b1f9f6994d9ccaa8457e87ac0, type: 3}
@@ -9054,7 +9062,9 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 1 trillon
+      value: 'LOS SANTOS
+
+        1 trillon'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da72032b1f9f6994d9ccaa8457e87ac0, type: 3}
@@ -9392,7 +9402,9 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 1 billon
+      value: 'VICE CITY
+
+        1 billon'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da72032b1f9f6994d9ccaa8457e87ac0, type: 3}
@@ -9764,7 +9776,7 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: '
+      value: 'CIUDADELA
 
         5000'
       objectReference: {fileID: 0}
