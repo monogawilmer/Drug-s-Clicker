@@ -8,11 +8,31 @@ public class GlobalCash : MonoBehaviour
 {
     public static int cashAmount;
     public GameObject cashDisplay;
-    public int internalCash;
+    public float internalCash;
     void Update()
     {
         
         internalCash = cashAmount;
-        cashDisplay.GetComponent<Text>().text = "Cash: " + internalCash;
+        if (internalCash < 1000)
+        {
+            cashDisplay.GetComponent<Text>().text = "Cash \n" + internalCash;
+        }
+        else if (internalCash >= 1000)
+        {
+            cashDisplay.GetComponent<Text>().text = "Cash \n" + System.Math.Round(internalCash / 1000, 2) + " Mil";
+        }
+        else if (internalCash >= 1000000)
+        {
+            cashDisplay.GetComponent<Text>().text = "Cash \n" + System.Math.Round(internalCash / 1000000, 2) + " Millon";
+        }
+        else if (internalCash >= 1000000000000)
+        {
+            cashDisplay.GetComponent<Text>().text = "Cash \n" + System.Math.Round(internalCash / 1000000000000, 2) + " Billon";
+        }
+        else if (internalCash >= 1000000000000000000)
+        {
+            cashDisplay.GetComponent<Text>().text = "Cash \n" + System.Math.Round(internalCash / 1000000000000000000, 2) + " Trillon";
+
+        }
     }
 }

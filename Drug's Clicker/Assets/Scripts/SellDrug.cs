@@ -40,8 +40,9 @@ public class SellDrug : MonoBehaviour
             if (particles.GetComponent<ParticleSystem>().isPlaying == false)
             {
                 var emision = particle.emission;
-                emision.rateOverTime = amountCash ;
+                emision.rateOverTime = amountCash;
                 particles.SetActive(true);
+               
             }
         }  
     }

@@ -10,7 +10,7 @@ public class GlobalDealer : MonoBehaviour
     public GameObject realButton;
     public GameObject realText;
     public int currentDrug;
-    public static int dealerValue = 50;
+    public static int dealerValue = 100;
     public static bool turnOffButton = false;
     public GameObject dealerStat;
     public static int numberOfDealer;

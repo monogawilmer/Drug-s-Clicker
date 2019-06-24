@@ -15,9 +15,6 @@ public class PurchaseLog : MonoBehaviour
         GlobalHomeless.turnOffButton = true;
         GlobalHomeless.homelessPerSec += 2;
         GlobalHomeless.numberOfHomeless += 1;  
-        //Manejo de Dealer
-        //Manejo de Sicario
-        //Manejo de Farmer
     }
 
     public void StartStudentDrug()
@@ -36,7 +33,37 @@ public class PurchaseLog : MonoBehaviour
         GlobalDrug.drugAmount -= GlobalDealer.dealerValue;
         GlobalDealer.dealerValue *= 4;
         GlobalDealer.turnOffButton = true;
-        GlobalDealer.dealerPerSec += 15;
+        GlobalDealer.dealerPerSec += 20;
         GlobalDealer.numberOfDealer += 1;
+    }
+
+    public void StartHitmanDrug()
+    {
+        autoDrug.SetActive(true);
+        GlobalDrug.drugAmount -= GlobalHitman.hitmanValue;
+        GlobalHitman.hitmanValue *= 5;
+        GlobalHitman.turnOffButton = true;
+        GlobalHitman.hitmanPerSec += 50;
+        GlobalHitman.numberOfHitman += 1;
+    }
+
+    public void StartFarmerDrug()
+    {
+        autoDrug.SetActive(true);
+        GlobalDrug.drugAmount -= GlobalFarmer.farmerValue;
+        GlobalFarmer.farmerValue *= 6;
+        GlobalFarmer.turnOffButton = true;
+        GlobalFarmer.farmerPerSec += 100;
+        GlobalFarmer.numberOfFarmer += 1;
+    }
+
+    public void StartPoliticianDrug()
+    {
+        autoDrug.SetActive(true);
+        GlobalDrug.drugAmount -= GlobalPolitician.politicianValue;
+        GlobalPolitician.politicianValue *= 7;
+        GlobalPolitician.turnOffButton = true;
+        GlobalPolitician.politicianPerSec += 200;
+        GlobalPolitician.numberOfPolitician += 1;
     }
 }
