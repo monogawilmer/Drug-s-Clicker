@@ -17,15 +17,15 @@ public class GlobalCash : MonoBehaviour
         {
             cashDisplay.GetComponent<Text>().text = "Cash \n" + internalCash;
         }
-        else if (internalCash >= 1000)
+        else if (internalCash >= 1000 && internalCash <= 1000000)
         {
             cashDisplay.GetComponent<Text>().text = "Cash \n" + System.Math.Round(internalCash / 1000, 2) + " Mil";
         }
-        else if (internalCash >= 1000000)
+        else if (internalCash >= 1000000 && internalCash <= 1000000000000)
         {
             cashDisplay.GetComponent<Text>().text = "Cash \n" + System.Math.Round(internalCash / 1000000, 2) + " Millon";
         }
-        else if (internalCash >= 1000000000000)
+        else if (internalCash >= 1000000000000 && internalCash <= 1000000000000000000)
         {
             cashDisplay.GetComponent<Text>().text = "Cash \n" + System.Math.Round(internalCash / 1000000000000, 2) + " Billon";
         }

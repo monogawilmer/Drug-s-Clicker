@@ -15,15 +15,15 @@ public class GlobalDrug : MonoBehaviour
         {
             drugDisplay.GetComponent<Text>().text = "Drug \n" + internalDrug;
         }
-        else if (internalDrug >= 1000)
+        else if (internalDrug >= 1000 && internalDrug <= 1000000)
         {
             drugDisplay.GetComponent<Text>().text = "Drug \n" + System.Math.Round(internalDrug /1000,2) + " Mil";
         }
-        else if (internalDrug >= 1000000)
+        else if (internalDrug >= 1000000 && internalDrug <= 1000000000000)
         {
             drugDisplay.GetComponent<Text>().text = "Drug \n" + System.Math.Round(internalDrug / 1000000, 2) + " Millon";
         }
-        else if(internalDrug >= 1000000000000)
+        else if(internalDrug >= 1000000000000 && internalDrug <= 1000000000000000000)
         {
             drugDisplay.GetComponent<Text>().text = "Drug \n" + System.Math.Round(internalDrug / 1000000000000, 2) + " Billon";
         }
