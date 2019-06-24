@@ -1584,8 +1584,13 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchoredPosition: {x: -213, y: -75.001}
   m_SizeDelta: {x: 75.195, y: 127.1}
+=======
+  m_AnchoredPosition: {x: -212.99963, y: -79.5}
+  m_SizeDelta: {x: 75.2, y: 53.3}
+>>>>>>> parent of 4a7ee5d... Fixed Bugs
 =======
   m_AnchoredPosition: {x: -212.99963, y: -79.5}
   m_SizeDelta: {x: 75.2, y: 53.3}
@@ -8364,8 +8369,13 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_AnchoredPosition: {x: 100.999985, y: -72.976006}
   m_SizeDelta: {x: 71.8, y: 131.15}
+=======
+  m_AnchoredPosition: {x: 100.999985, y: -67}
+  m_SizeDelta: {x: 71.8, y: 119.2}
+>>>>>>> parent of 4a7ee5d... Fixed Bugs
 =======
   m_AnchoredPosition: {x: 100.999985, y: -67}
   m_SizeDelta: {x: 71.8, y: 119.2}
