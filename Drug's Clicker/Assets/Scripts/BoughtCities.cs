@@ -7,9 +7,11 @@ using UnityEngine.UI;
 public class BoughtCities : MonoBehaviour
 {
     public int priceCity;
+
     public Button button;
+
     //public GameObject nextCity;
-    private int count=0;
+    private int count = 0;
     public GameObject multiplierText;
 
     // Start is called before the first frame update
@@ -22,14 +24,19 @@ public class BoughtCities : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (count==0 && GlobalCash.cashAmount >= priceCity)
-            button.enabled = true;
-        else if (GlobalCash.cashAmount < priceCity && button.enabled == true && count != 0) 
-            button.enabled = false;
-        else
+        var buttonColors = button.image;
+
+        if (count == 0 && GlobalCash.cashAmount >= priceCity)
         {
-            
+            button.enabled = true;
+            buttonColors.color = Color.yellow;
         }
+        else if (GlobalCash.cashAmount < priceCity && button.enabled == true && count != 0)
+        {
+            button.enabled = false;
+            buttonColors.color=Color.white;
+            
+        } 
         
     
 
