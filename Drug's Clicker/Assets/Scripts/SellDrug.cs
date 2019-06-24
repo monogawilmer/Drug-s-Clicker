@@ -1,5 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,7 +14,7 @@ public class SellDrug : MonoBehaviour
     private ParticleSystem particle;
     public AudioClip register;
     private AudioSource celebration;
-    
+    public static double multiplier=1;
 
 
     private void Start()
@@ -31,8 +33,9 @@ public class SellDrug : MonoBehaviour
         {
             celebration.PlayOneShot(register);
             celebration.PlayOneShot(celebrationAudioClip, 2f);
-            int amountCash = GlobalDrug.drugAmount;
-            GlobalCash.cashAmount += GlobalDrug.drugAmount;
+            double amountCashFloat = (GlobalDrug.drugAmount*multiplier);
+            int amountCash = Convert.ToInt32(amountCashFloat);
+            GlobalCash.cashAmount += Convert.ToInt32(amountCashFloat);;
             GlobalDrug.drugAmount -= GlobalDrug.drugAmount;
             if (particles.GetComponent<ParticleSystem>().isPlaying == false)
             {

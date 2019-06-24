@@ -18,6 +18,7 @@ public class GlobalDealer : MonoBehaviour
 
     void Update()
     {
+        
         currentDrug = GlobalDrug.drugAmount;
         fakeText.GetComponent<Text>().text = dealerValue + " Drug's - " + numberOfDealer + " Dealer " + dealerPerSec + " Per Sec";
         realText.GetComponent<Text>().text = dealerValue + " Drug's - " + numberOfDealer + " Dealer " + dealerPerSec + " Per Sec";
