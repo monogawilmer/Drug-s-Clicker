@@ -26,7 +26,7 @@ public class Disaster : MonoBehaviour
         genChance = Random.Range(1, 20);
         if(drugCheck >= genChance)
         {
-            drugLoss = Mathf.RoundToInt(GlobalDrug.drugAmount * 0.25f);
+            drugLoss = Mathf.RoundToInt(GlobalDrug.drugAmount * 0.10f);
             statusBox.GetComponent<Text>().text = "You have lost " + drugLoss + " because a laboratory have burned";
             GlobalDrug.drugAmount -= drugLoss;
             //yield return new WaitForSeconds(3);
@@ -35,7 +35,7 @@ public class Disaster : MonoBehaviour
             statusBox.SetActive(false);
             statusBox.SetActive(true);
         }
-        yield return new WaitForSeconds(10);
+        yield return new WaitForSeconds(60);
         disasterActive = false;
     }
 }
