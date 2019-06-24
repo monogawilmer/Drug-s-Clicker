@@ -265,7 +265,7 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 300
+      value: 1000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da72032b1f9f6994d9ccaa8457e87ac0, type: 3}
@@ -312,7 +312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf8899e303037704480347b9fe81caeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priceCity: 500000
+  priceCity: 1000000000
   button: {fileID: 628649572}
 --- !u!1 &53895180
 GameObject:
@@ -423,7 +423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf8899e303037704480347b9fe81caeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priceCity: 100000
+  priceCity: 1000000
   button: {fileID: 1454159716}
 --- !u!1 &104494014
 GameObject:
@@ -1219,7 +1219,7 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 10000
+      value: 500000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da72032b1f9f6994d9ccaa8457e87ac0, type: 3}
@@ -1451,7 +1451,7 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 1000
+      value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 6988382806876221817, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
@@ -1960,7 +1960,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf8899e303037704480347b9fe81caeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priceCity: 1000
+  priceCity: 10000
   button: {fileID: 579329678}
 --- !u!1 &594102611
 GameObject:
@@ -7506,7 +7506,7 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 5000
+      value: 70000
       objectReference: {fileID: 0}
     - target: {fileID: 6988382807410549962, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
@@ -7544,7 +7544,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf8899e303037704480347b9fe81caeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priceCity: 100
+  priceCity: 500
   button: {fileID: 809535008}
 --- !u!4 &803989607
 Transform:
@@ -8616,7 +8616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf8899e303037704480347b9fe81caeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priceCity: 600
+  priceCity: 5000
   button: {fileID: 1470494440}
 --- !u!1001 &1267622869
 PrefabInstance:
@@ -8748,7 +8748,7 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 100000
+      value: 1 millon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da72032b1f9f6994d9ccaa8457e87ac0, type: 3}
@@ -8967,7 +8967,7 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 1000000
+      value: 1 trillon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da72032b1f9f6994d9ccaa8457e87ac0, type: 3}
@@ -9305,7 +9305,7 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 500000
+      value: 1 billon
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da72032b1f9f6994d9ccaa8457e87ac0, type: 3}
@@ -9677,7 +9677,7 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 600
+      value: 5000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da72032b1f9f6994d9ccaa8457e87ac0, type: 3}
@@ -9803,7 +9803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf8899e303037704480347b9fe81caeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priceCity: 5000
+  priceCity: 70000
   button: {fileID: 2000981645}
 --- !u!1 &1680804461
 GameObject:
@@ -10124,7 +10124,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf8899e303037704480347b9fe81caeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priceCity: 300
+  priceCity: 1000
   button: {fileID: 1571538387}
 --- !u!4 &1739923549
 Transform:
@@ -10623,7 +10623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf8899e303037704480347b9fe81caeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priceCity: 1000000
+  priceCity: 2147483647
   button: {fileID: 2090554565}
 --- !u!224 &2000981644 stripped
 RectTransform:
@@ -10686,7 +10686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf8899e303037704480347b9fe81caeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priceCity: 10000
+  priceCity: 500000
   button: {fileID: 1900859281}
 --- !u!224 &2090554564 stripped
 RectTransform:
@@ -10919,7 +10919,7 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: 100
+      value: 500
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da72032b1f9f6994d9ccaa8457e87ac0, type: 3}
