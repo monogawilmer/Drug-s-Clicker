@@ -459,7 +459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf8899e303037704480347b9fe81caeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priceCity: 1000000000
+  priceCity: 500000000
   button: {fileID: 628649572}
   si: 0
   multiplierText: {fileID: 7615396}
@@ -9663,7 +9663,7 @@ PrefabInstance:
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
       propertyPath: m_Text
-      value: "LOS SANTOS\n   1 trillon"
+      value: "LOS SANTOS\n   1 Billon"
       objectReference: {fileID: 0}
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
@@ -10179,7 +10179,7 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'VICE CITY
 
-        1 billon'
+        500 Millon'
       objectReference: {fileID: 0}
     - target: {fileID: 6988382807410549963, guid: da72032b1f9f6994d9ccaa8457e87ac0,
         type: 3}
@@ -11668,7 +11668,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf8899e303037704480347b9fe81caeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  priceCity: 2147483647
+  priceCity: 1000000000
   button: {fileID: 2090554565}
   si: 1
   multiplierText: {fileID: 7615396}
@@ -11789,7 +11789,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -4.9000244, y: -163.09995}
+  m_AnchoredPosition: {x: -4.900055, y: -163.09991}
   m_SizeDelta: {x: -63.8, y: -374.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2112087159
