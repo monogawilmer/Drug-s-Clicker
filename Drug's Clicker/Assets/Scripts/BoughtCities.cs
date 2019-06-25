@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -9,6 +10,7 @@ public class BoughtCities : MonoBehaviour
     public int priceCity;
 
     public Button button;
+    public Boolean si;
 
     //public GameObject nextCity;
     private int count = 0;
@@ -53,6 +55,8 @@ public class BoughtCities : MonoBehaviour
             button.enabled=false;
             SellDrug.multiplier += 0.35;
             multiplierText.GetComponent<Text>().text = "multiplier x" + SellDrug.multiplier;
+            if (si==true)
+                SceneManager.LoadScene("final");
             //nextCity.SetActive(true);
         }
     }
